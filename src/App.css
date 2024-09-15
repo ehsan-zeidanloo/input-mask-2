@@ -1,0 +1,23 @@
+h1 {  
+    color: #333; /* رنگ عنوان */  
+    text-align: center; /* مرکز کردن متن */  
+}  
+
+input {  
+    width: 300px; /* عرض فیلد ورودی */  
+    padding: 10px; /* Padding داخلی */  
+    border-radius: 5px; /* گوشه‌های گرد */  
+    border: 1px solid #ccc; /* رنگ و ضخامت حاشیه */  
+    font-size: 16px; /* اندازه فونت */  
+    margin-top: 20px; /* فاصله بالای فیلد ورودی */  
+}  
+
+input::placeholder {  
+    color: #ec1010; /* رنگ placeholder */  
+    font-style: italic; /* حالت ایتالیک */  
+}  
+
+input:focus {  
+    border: 1px solid #007bff; /* رنگ حاشیه هنگام فوکوس */  
+    outline: none; /* حذف outline پیش‌فرض */  
+}  

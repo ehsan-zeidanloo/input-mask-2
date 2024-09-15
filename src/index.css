@@ -1,0 +1,21 @@
+
+body {
+  font-family: "Arial", sans-serif; /* فونت اصلی */
+  background-color: #f0f0f0; /* رنگ پس‌زمینه */
+  margin: 0; /* حذف حاشیه */
+  padding: 0; /* حذف padding */
+  display: flex; /* استفاده از Flexbox برای مرکز کردن محتوا */
+  justify-content: center; /* مرکز کردن افقی */
+  align-items: center; /* مرکز کردن عمودی */
+  height: 100vh; /* ارتفاع کل صفحه */
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
